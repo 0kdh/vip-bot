@@ -1,0 +1,26 @@
+{
+  "_comment": "Ce fichier est fourni pour référence. Toutes les données sont stockées dans data.sqlite (SQLite).",
+  "_version": "1.0.0",
+  "default_config": {
+    "prefix": "!",
+    "default_embed_color": "#5865F2",
+    "welcome_embed": "true",
+    "welcome_message": "Bienvenue {mention} sur **{server}** ! Tu es le membre n°{count} 🎉"
+  },
+  "tables": [
+    "config",
+    "embeds",
+    "announces",
+    "buttons",
+    "tickets",
+    "ticket_config",
+    "access",
+    "warnings",
+    "mutes",
+    "reaction_roles",
+    "custom_commands",
+    "polls",
+    "poll_votes",
+    "auth_buttons"
+  ]
+}
